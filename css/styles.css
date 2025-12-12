@@ -1,7 +1,16 @@
-body {
-  background-image:
-    linear-gradient(135deg, rgba(0,0,0,0.5), rgba(255, 0, 0, 0.5)),
-    url("assets/images/background.jpg");
-  
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
+body {
+background-image:
+  linear-gradient(135deg, rgba(0,0,0,0.5), rgba(255, 0, 0, 0.5)),
+  url("../assets/images/background.jpg");
+
+
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat;  
+
+  color: rgb(255, 255, 255);                  
+  font-weight: 500;             
+}
