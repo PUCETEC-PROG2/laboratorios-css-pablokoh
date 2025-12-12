@@ -1,6 +1,7 @@
-body{
-background-image: 
-  linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(195, 0, 255, 0.3)),
-  url("sources/imagen/fnaf.png");
-
+body {
+  background-image:
+    linear-gradient(135deg, rgba(0,0,0,0.5), rgba(255, 0, 0, 0.5)),
+    url("assets/images/background.jpg");
+  
 }
+
