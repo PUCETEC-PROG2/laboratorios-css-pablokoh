@@ -1,16 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-
 body {
-background-image:
-  linear-gradient(135deg, rgba(0,0,0,0.5), rgba(255, 0, 0, 0.5)),
-  url("../assets/images/background.jpg");
-
+  background-image:
+    linear-gradient(135deg, rgba(79, 3, 117, 0.5), rgba(255, 0, 0, 0.5)),
+    url("../assets/images/background.jpg");
 
   background-size: cover;       
   background-position: center;  
   background-repeat: no-repeat;  
 
   color: rgb(255, 255, 255);                  
-  font-weight: 500;             
+  font-weight: 500;  
+  font-family: 'Open Sans', sans-serif;
+}
+
+.box-imagenes {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid #690c80;
+  border-radius: 16px;
+  background-color: rgba(140, 14, 178, 0.3);
+}
+
+.box-imagenes img {
+  border-radius: 8px;
+}
+
+
+.sobre-mi-box img {
+  width: 200px;               
+  border-radius: 50%;         
+  object-fit: cover;         
+}
+
+
+.box-section {
+  padding: 40px;               
+  margin: 20px 0;                
+  border: 2px solid #fcfcfc;        
+  border-radius: 16px;            
+  background-color: rgba(84, 6, 89, 0.3); 
+}
+
+.box-section h2 {
+  margin-top: 0;
+  color: #ec0d0d; 
+}
+
+
+.box-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.box-section li {
+  margin: 8px 0;
+}
+
+.redes-sociales {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.redes-sociales a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.redes-sociales img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.sobre-mi-box {
+  text-align: center; 
+}
+
+.sobre-mi-box img {
+  display: block;
+  margin: 0 auto;  
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
